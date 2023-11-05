@@ -48,6 +48,7 @@ int main()
 				std::cout << "Folder Name5: " << folder[5].getName() << ", Date: " << folder[5].getdate() << ", Size: " << folder[5].getSize() << "MB" << std::endl;
 				std::cout << "Change Folder name (write the number of which folder you want to change name)" << std::endl;
 				std::cout << "Open folder press 6" << std::endl;
+				std::cout << "Choice: ";
 
 				std::cin >> choice;
 				switch (choice)
@@ -86,16 +87,16 @@ int main()
 
 					case 1:
 						std::cout << "Opening " << folder[1].getName() << endl;
-						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << folder[0].getSize() << "MB" << endl;
-						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << folder[1].getSize() << "MB" << endl;
-						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << folder[2].getSize() << "MB" << endl;
-						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << folder[3].getSize() << "MB" << endl;
-						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << folder[4].getSize() << "MB" << endl;
-						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << folder[5].getSize() << "MB" << endl;
-						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << folder[6].getSize() << "MB" << endl;
-						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << folder[7].getSize() << "MB" << endl;
-						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << folder[8].getSize() << "MB" << endl;
-						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << folder[9].getSize() << "MB" << endl;
+						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << files[0].getSize() << "MB" << endl;
+						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << files[1].getSize() << "MB" << endl;
+						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << files[2].getSize() << "MB" << endl;
+						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << files[3].getSize() << "MB" << endl;
+						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << files[4].getSize() << "MB" << endl;
+						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << files[5].getSize() << "MB" << endl;
+						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << files[6].getSize() << "MB" << endl;
+						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << files[7].getSize() << "MB" << endl;
+						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << files[8].getSize() << "MB" << endl;
+						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << files[9].getSize() << "MB" << endl;
 						std::cout << "Change name (select the number of which folder you would like to change the name)" << endl;
 						std::cout << "Print out the largest file press 11" << endl;
 						std::cin >> testy;
@@ -180,16 +181,16 @@ int main()
 
 					case 2:
 						std::cout << "Opening " << folder[2].getName() << endl;
-						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << folder[0].getSize() << "MB" << endl;
-						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << folder[1].getSize() << "MB" << endl;
-						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << folder[2].getSize() << "MB" << endl;
-						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << folder[3].getSize() << "MB" << endl;
-						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << folder[4].getSize() << "MB" << endl;
-						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << folder[5].getSize() << "MB" << endl;
-						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << folder[6].getSize() << "MB" << endl;
-						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << folder[7].getSize() << "MB" << endl;
-						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << folder[8].getSize() << "MB" << endl;
-						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << folder[9].getSize() << "MB" << endl;
+						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << files[0].getSize() << "MB" << endl;
+						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << files[1].getSize() << "MB" << endl;
+						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << files[2].getSize() << "MB" << endl;
+						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << files[3].getSize() << "MB" << endl;
+						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << files[4].getSize() << "MB" << endl;
+						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << files[5].getSize() << "MB" << endl;
+						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << files[6].getSize() << "MB" << endl;
+						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << files[7].getSize() << "MB" << endl;
+						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << files[8].getSize() << "MB" << endl;
+						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << files[9].getSize() << "MB" << endl;
 						std::cout << "Change name (select the number of which folder you would like to change the name)" << endl;
 						std::cout << "Print out the largest file press 11" << endl;
 						std::cin >> testy;
@@ -274,16 +275,16 @@ int main()
 						break;
 					case 3:
 						std::cout << "Opening " << folder[3].getName() << endl;
-						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << folder[0].getSize() << "MB" << endl;
-						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << folder[1].getSize() << "MB" << endl;
-						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << folder[2].getSize() << "MB" << endl;
-						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << folder[3].getSize() << "MB" << endl;
-						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << folder[4].getSize() << "MB" << endl;
-						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << folder[5].getSize() << "MB" << endl;
-						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << folder[6].getSize() << "MB" << endl;
-						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << folder[7].getSize() << "MB" << endl;
-						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << folder[8].getSize() << "MB" << endl;
-						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << folder[9].getSize() << "MB" << endl;
+						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << files[0].getSize() << "MB" << endl;
+						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << files[1].getSize() << "MB" << endl;
+						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << files[2].getSize() << "MB" << endl;
+						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << files[3].getSize() << "MB" << endl;
+						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << files[4].getSize() << "MB" << endl;
+						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << files[5].getSize() << "MB" << endl;
+						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << files[6].getSize() << "MB" << endl;
+						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << files[7].getSize() << "MB" << endl;
+						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << files[8].getSize() << "MB" << endl;
+						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << files[9].getSize() << "MB" << endl;
 						std::cout << "Change name (select the number of which folder you would like to change the name)" << endl;
 						std::cout << "Print out the largest file press 11" << endl;
 						std::cin >> testy;
@@ -371,16 +372,16 @@ int main()
 
 					case 4:
 						std::cout << "Opening " << folder[4].getName() << endl;
-						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << folder[0].getSize() << "MB" << endl;
-						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << folder[1].getSize() << "MB" << endl;
-						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << folder[2].getSize() << "MB" << endl;
-						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << folder[3].getSize() << "MB" << endl;
-						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << folder[4].getSize() << "MB" << endl;
-						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << folder[5].getSize() << "MB" << endl;
-						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << folder[6].getSize() << "MB" << endl;
-						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << folder[7].getSize() << "MB" << endl;
-						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << folder[8].getSize() << "MB" << endl;
-						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << folder[9].getSize() << "MB" << endl;
+						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << files[0].getSize() << "MB" << endl;
+						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << files[1].getSize() << "MB" << endl;
+						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << files[2].getSize() << "MB" << endl;
+						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << files[3].getSize() << "MB" << endl;
+						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << files[4].getSize() << "MB" << endl;
+						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << files[5].getSize() << "MB" << endl;
+						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << files[6].getSize() << "MB" << endl;
+						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << files[7].getSize() << "MB" << endl;
+						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << files[8].getSize() << "MB" << endl;
+						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << files[9].getSize() << "MB" << endl;
 						std::cout << "Change name (select the number of which folder you would like to change the name)" << endl;
 						std::cout << "Print out the largest file press 11" << endl;
 						std::cin >> testy;
@@ -468,16 +469,16 @@ int main()
 
 					case 5:
 						std::cout << "Opening " << folder[5].getName() << endl;
-						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << folder[0].getSize() << "MB" << endl;
-						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << folder[1].getSize() << "MB" << endl;
-						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << folder[2].getSize() << "MB" << endl;
-						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << folder[3].getSize() << "MB" << endl;
-						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << folder[4].getSize() << "MB" << endl;
-						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << folder[5].getSize() << "MB" << endl;
-						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << folder[6].getSize() << "MB" << endl;
-						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << folder[7].getSize() << "MB" << endl;
-						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << folder[8].getSize() << "MB" << endl;
-						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << folder[9].getSize() << "MB" << endl;
+						std::cout << "File Name 1: " << files[0].getName() << ", Date: " << files[0].getdate() << ", Size: " << files[0].getSize() << "MB" << endl;
+						std::cout << "File Name 2: " << files[1].getName() << ", Date: " << files[1].getdate() << ", Size: " << files[1].getSize() << "MB" << endl;
+						std::cout << "File Name 3: " << files[2].getName() << ", Date: " << files[2].getdate() << ", Size: " << files[2].getSize() << "MB" << endl;
+						std::cout << "File Name 4: " << files[3].getName() << ", Date: " << files[3].getdate() << ", Size: " << files[3].getSize() << "MB" << endl;
+						std::cout << "File Name 5: " << files[4].getName() << ", Date: " << files[4].getdate() << ", Size: " << files[4].getSize() << "MB" << endl;
+						std::cout << "File Name 6: " << files[5].getName() << ", Date: " << files[5].getdate() << ", Size: " << files[5].getSize() << "MB" << endl;
+						std::cout << "File Name 7: " << files[6].getName() << ", Date: " << files[6].getdate() << ", Size: " << files[6].getSize() << "MB" << endl;
+						std::cout << "File Name 8: " << files[7].getName() << ", Date: " << files[7].getdate() << ", Size: " << files[7].getSize() << "MB" << endl;
+						std::cout << "File Name 9: " << files[8].getName() << ", Date: " << files[8].getdate() << ", Size: " << files[8].getSize() << "MB" << endl;
+						std::cout << "File Name 10: " << files[9].getName() << ", Date: " << files[9].getdate() << ", Size: " << files[9].getSize() << "MB" << endl;
 						std::cout << "Change name (select the number of which folder you would like to change the name)" << endl;
 						std::cout << "Print out the largest file press 11" << endl;
 						std::cin >> testy;
